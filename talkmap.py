@@ -10,38 +10,35 @@
 # and Javascript for a standalone cluster map.
 #
 # Requires: glob, getorg, geopy
-
 import glob
 import getorg
 from geopy import Nominatim
 
 g = glob.glob("*.md")
 
-
-geocoder = Nominatim()
+# 添加 user_agent
+geocoder = Nominatim(user_agent="my-talks-map")
 location_dict = {}
-location = ""
-permalink = ""
-title = ""
-
 
 for file in g:
     with open(file, 'r') as f:
         lines = f.read()
-        if lines.find('location: "') > 1:
+        if 'location: "' in lines:
             loc_start = lines.find('location: "') + 11
             lines_trim = lines[loc_start:]
             loc_end = lines_trim.find('"')
-            location = lines_trim[:loc_end]
-                            
-           
-        location_dict[location] = geocoder.geocode(location)
-        print(location, "\n", location_dict[location])
-
+            location = lines_trim[:loc_end].strip()
+            
+            # 添加异常处理，防止地址无效或 geocoding 失败
+            try:
+                geo_result = geocoder.geocode(location)
+                if geo_result:
+                    location_dict[location] = geo_result
+                    print(location, "\n", geo_result)
+                else:
+                    print("Could not geocode:", location)
+            except Exception as e:
+                print("Error geocoding", location, ":", e)
 
 m = getorg.orgmap.create_map_obj()
 getorg.orgmap.output_html_cluster_map(location_dict, folder_name="../talkmap", hashed_usernames=False)
-
-
-
-
