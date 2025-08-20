@@ -33,7 +33,7 @@ You can find my CV here: [Delu's CV](../assets/Daniel KONG-CV.pdf)
 </p>
 
 Feel free to contact me via:
-[Email](mailto:kongdelu2009@hotmail.com) / [GitHub](https://github.com/danielkong1996) / [WeChat](/assets/WechatImage.jpg)
+[Email](mailto:kongdelu2009@hotmail.com) / [GitHub](https://github.com/deludanielkong) / [WeChat](/assets/WechatImage.jpg)
 
 Funny stuff
 ======
