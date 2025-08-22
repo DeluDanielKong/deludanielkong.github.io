@@ -6,7 +6,7 @@ permalink: /news/
 
 - **September 5–7, 2025**: Will be presenting at the [**23rd FIT World Congress**](https://fitift.eventsair.com/fit2025/programme) in Geneva, Switzerland. Looking forward to sharing my research and engaging in discussions with fellow translation scholars!
 
-- **August 20,, 2025**: Thrilled to become a reviewer for [**New Voices in Translation Studies**](https://newvoices.arts.chula.ac.th) 🎆🎇✨ — my very first paper review in my academic career! 🎆
+- **August 20, 2025**: Thrilled to become a reviewer for [**New Voices in Translation Studies**](https://newvoices.arts.chula.ac.th) 🎆🎇✨ — my very first paper review in my academic career! 🎆
 
 - **July 3, 2025**: Attended the [**EST Conference**](https://ahc.leeds.ac.uk/events/event/2764/11th_est_congress_the_changing_faces_of_translation_and_interpreting_studies) at the University of Leeds, UK. Presented in Panel 21 on *"A Stylometric Investigation on Retranslation Frenzy in China: Human Translations vs. Machine Translations"*. A fantastic conference with over 700 participants — really enjoyed the experience!
 
