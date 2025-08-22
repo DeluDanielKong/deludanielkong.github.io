@@ -21,7 +21,7 @@ repository               : "deludanielkong/deludanielkong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/square_pic.png" # URL of the avatar image
+  avatar           : "square_pic.png" # URL of the avatar image
   name             : "Delu (Daniel) KONG" # Name of the author
   pronouns         : "He/Him"  
   bio              : "PhD student in ML-enhanced translation studies" # Short bio or description
