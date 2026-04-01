@@ -4,6 +4,8 @@ layout: archive
 permalink: /news/
 ---
 
+- **April 2026**: The [**EAMT 2026 conference**](https://eamt2026.org/) will be held in Tilburg, Netherlands. And I am glad to be the Reviewer in Technical track of the conference! 
+
 - **September 5–7, 2025**: Will be presenting at the [**23rd FIT World Congress**](https://fitift.eventsair.com/fit2025/programme) in Geneva, Switzerland. Looking forward to sharing my research and engaging in discussions with fellow translation scholars!
 
 - **August 20, 2025**: Thrilled to become a reviewer for [**New Voices in Translation Studies**](https://newvoices.arts.chula.ac.th) 🎆🎇✨ — my very first paper review in my academic career! 🎆
